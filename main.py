@@ -129,7 +129,7 @@ class Library:
     def __init__(self):
         self.book_list = []
 
-# 9a
+#9a
     def add_book(self, book):
         if type(book) == Book:
             self.book_list.append(book)
@@ -237,6 +237,7 @@ def count_words(file_path):
 
 # Example usage:
 print(count_words("C:/Users/AlexKarra/Desktop/text.txt"))
+
 
 # 12
 
